@@ -41,7 +41,7 @@ function createPlayer(player, name, hp, heroImg) {
     const $character = document.createElement('div');
     $character.classList.add('character');
 
-    const $img = document.createElement('div');
+    const $img = document.createElement('img');
     $img.classList.add('img');
     $img.src = heroImg;
 
